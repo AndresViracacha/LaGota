@@ -1,0 +1,138 @@
+main {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  padding-left: 129px;
+}
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 111px;
+  margin-bottom: 40px;
+}
+iframe {
+  height: 577px;
+  width: 100%;
+}
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 50px;
+  margin-top: 23px;
+  font-size: 30px;
+  font-weight: bold;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.senales {
+  margin-top: 66px;
+}
+.senales-titulo {
+  background-color: #ffc933;
+  width: 401px;
+  height: 193px;
+  margin: 0 auto;
+  border-radius: 16px;
+  padding: 12px;
+}
+.senales-borde {
+  border-radius: 16px;
+  border: 5px solid #000;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 49px 63px;
+  text-align: center;
+}
+.senales-cuerpo {
+  position: relative;
+}
+.barra {
+  z-index: 1000;
+  top: 0;
+  position: absolute;
+  width: 31px;
+  height: 3000px;
+  background: linear-gradient(
+    270deg,
+    rgba(212, 212, 212, 1) 0%,
+    rgba(128, 128, 128, 1) 100%
+  );
+  left: 50%;
+  translate: -50%;
+}
+.tarjeta {
+  width: 428px;
+  position: absolute;
+}
+.direccion {
+  border: 5px solid #c2c2c2;
+  width: 214px;
+  padding: 15px 68px 12px 68px;
+  display: flex;
+  align-items: flex-start;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #05453a;
+  color: #fff;
+}
+.direccion span {
+  font-size: 18px;
+  margin-left: 14px;
+}
+.tarjeta img {
+  width: 100%;
+}
+.tarjeta-der {
+  margin-left: 48px;
+  left: 50%;
+}
+.tarjeta-izq {
+  margin-right: 48px;
+}
+
+.tarj-der {
+  margin-left: 48px;
+  left: 47%;
+}
+.tarj-izq {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  right: 50%;
+}
+
+/* numeros */
+.uno {
+  top: 0px;
+}
+.dos {
+  top: 300px;
+}
+.tres {
+  top: 600px;
+}
+.cuatro {
+  top: 900px;
+}
+.cinco {
+  top: 1200px;
+}
+.seis {
+  top: 1500px;
+}
+.siete {
+  top: 1800px;
+}
+.ocho {
+  top: 2100px;
+}
+.nueve {
+  top: 2400px;
+}
