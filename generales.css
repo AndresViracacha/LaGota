@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedorGeneral {
+  display: grid;
+  grid-template-columns: auto 322px;
+}
+@media (max-width: 1280px) {
+  .contenedorGeneral {
+    display: grid;
+    grid-template-columns: auto 228px;
+  }
+}
+@media (max-width: 688px) {
+  .contenedorGeneral {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
