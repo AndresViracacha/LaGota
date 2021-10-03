@@ -84,6 +84,7 @@ main {
 .infoAndrew {
   padding-top: 49px;
   padding-left: 237px;
+  position: relative;
 }
 .andrew1 {
   background-image: url(./IMG/sobreNosotros/andrew/Andrew1.png);
@@ -141,14 +142,15 @@ main {
 .infoJose {
   margin-top: 66px;
   margin-left: 746px;
+  position: relative;
 }
 .jose1 {
   background-image: url(./IMG/sobreNosotros/jose/jose1.png);
   width: 446px;
   height: 448px;
   position: absolute;
-  top: 85px;
-  left: 146px;
+  top: 0px;
+  left: -646px;
   background-repeat: no-repeat;
 }
 .jose1 p:first-child {
@@ -173,8 +175,8 @@ main {
   width: 575px;
   height: 506px;
   position: absolute;
-  top: 287px;
-  left: 381px;
+  top: 207px;
+  left: -381px;
   background-repeat: no-repeat;
 }
 .jose2 .texto2 {
@@ -195,4 +197,169 @@ main {
   margin-top: 80px;
   margin-left: 210px;
   text-align: right;
+}
+
+/* Soto*/
+.infoSoto {
+  padding-top: 71px;
+  margin-left: 403px;
+  position: relative;
+}
+.infoSoto img {
+  position: absolute;
+  z-index: 2;
+}
+.soto1 {
+  background-image: url(./IMG/sobreNosotros/soto/soto1.png);
+  width: 446px;
+  height: 448px;
+  position: absolute;
+  top: 209px;
+  left: -400px;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.soto1 p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+  rotate: 2deg;
+  color: #000;
+  margin-top: 70px;
+  margin-left: 110px;
+}
+.soto1 .texto1 {
+  font-size: 20px;
+  font-weight: bold;
+  rotate: 0deg;
+  color: #881414;
+  margin-top: 80px;
+  margin-left: 49px;
+  width: 325px;
+}
+.soto2 {
+  background-image: url(./IMG/sobreNosotros/soto/soto2.png);
+  width: 690px;
+  height: 424px;
+  position: absolute;
+  top: 366px;
+  left: 0px;
+  background-repeat: no-repeat;
+}
+.soto2 .texto2 {
+  font-size: 20px;
+  width: 265px;
+  font-weight: bold;
+  rotate: 0deg;
+  color: #000;
+  margin-top: 110px;
+  margin-left: 357px;
+}
+.soto2 .texto3 {
+  font-size: 20px;
+  width: 432px;
+  font-weight: bold;
+  rotate: 0deg;
+  color: #000;
+  margin-top: 10px;
+  margin-left: 122px;
+  text-align: left;
+}
+
+/*Yury*/
+.infoYury {
+  margin-top: 100px;
+  margin-left: 339px;
+  position: relative;
+}
+.yury1 {
+  background-image: url(./IMG/sobreNosotros/yury/yury1.png);
+  width: 446px;
+  height: 448px;
+  position: absolute;
+  top: 108px;
+  left: 288px;
+  background-repeat: no-repeat;
+}
+.yury1 p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+  rotate: -7deg;
+  color: #000;
+  margin-top: 80px;
+  margin-left: 160px;
+}
+.yury1 .texto1 {
+  font-size: 20px;
+  font-weight: bold;
+  rotate: 0deg;
+  color: #881414;
+  margin-top: 80px;
+  margin-left: 150px;
+  width: 270px;
+}
+.yury2 {
+  background-image: url(./IMG/sobreNosotros/yury/yury2.png);
+  width: 575px;
+  height: 506px;
+  position: absolute;
+  top: 359px;
+  left: -61px;
+  background-repeat: no-repeat;
+}
+.yury2 .texto2 {
+  font-size: 20px;
+  width: 265px;
+  font-weight: bold;
+  rotate: 0deg;
+  color: #000;
+  margin-top: 90px;
+  margin-left: 180px;
+  text-align: right;
+}
+.yury2 .texto3 {
+  font-size: 20px;
+  width: 353px;
+  font-weight: bold;
+  rotate: 0deg;
+  color: #000;
+  margin-top: 60px;
+  margin-left: 60px;
+  text-align: left;
+}
+
+@media (min-width: 1500px) {
+  .info {
+    margin-left: 300px;
+  }
+  .andres .titulo {
+    margin-left: 300px;
+  }
+  .infoAndrew {
+    margin-left: 160px;
+  }
+  .infoJose {
+    margin-left: 800px;
+  }
+  .infoSoto {
+    margin-left: 500px;
+  }
+}
+@media (min-width: 1600px) {
+  .infoJose {
+    margin-left: 900px;
+  }
+  .infoSoto {
+    margin-left: 500px;
+  }
+}
+@media (min-width: 1700px) {
+  .infoJose {
+    margin-left: 900px;
+  }
+  .infoSoto {
+    margin-left: 700px;
+  }
+  .infoYury {
+    margin-left: 500px;
+  }
 }
