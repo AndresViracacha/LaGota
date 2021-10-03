@@ -1,0 +1,198 @@
+main {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+.rojo {
+  background-image: url(./IMG/sobreNosotros/fRojo.png);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden;
+}
+.gris {
+  background-image: url(./IMG/sobreNosotros/fGris.png);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+.andres {
+  padding-top: 35px;
+}
+.andres .titulo {
+  background-image: url(./IMG/sobreNosotros/titulo.png);
+  background-repeat: no-repeat;
+  max-width: 992px;
+  background-size: 992px 189px;
+  padding-top: 70px;
+  padding-right: 30px;
+  height: 189px;
+  margin-right: 17px;
+  margin-left: 111px;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: right;
+}
+.info {
+  margin-left: 111px;
+  position: relative;
+  margin-top: 40px;
+}
+.andres1 {
+  background-image: url(./IMG/sobreNosotros/andres/andres1.png);
+  width: 396px;
+  height: 412px;
+  position: absolute;
+  top: 0;
+  left: 500px;
+  background-repeat: no-repeat;
+}
+.andres1 p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #881414;
+  margin-top: 80px;
+  width: 270px;
+  margin-left: 100px;
+}
+.andres1 p:first-child {
+  font-size: 27px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 56px;
+  margin-left: 90px;
+  rotate: -4deg;
+}
+.andres2 {
+  background-image: url(./IMG/sobreNosotros/andres/andres2.png);
+  width: 396px;
+  height: 412px;
+  position: absolute;
+  top: 237px;
+  left: 200px;
+  background-repeat: no-repeat;
+}
+.andres2 p {
+  width: 297px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 45px;
+  margin-left: 50px;
+}
+.infoAndrew {
+  padding-top: 49px;
+  padding-left: 237px;
+}
+.andrew1 {
+  background-image: url(./IMG/sobreNosotros/andrew/Andrew1.png);
+  width: 522px;
+  height: 512px;
+  position: absolute;
+  top: 125px;
+  left: 500px;
+  background-repeat: no-repeat;
+}
+.andrew1 p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+  rotate: 2deg;
+  color: #000;
+  margin-top: 80px;
+  margin-left: 160px;
+}
+.andrew1 .texto1 {
+  color: #881414;
+  font-size: 20px;
+  font-weight: bold;
+  rotate: 2deg;
+  width: 353px;
+  rotate: 0deg;
+  text-align: right;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.andrew2 {
+  background-image: url(./IMG/sobreNosotros/andrew/Andrew2.png);
+  width: 524px;
+  height: 324px;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  background-repeat: no-repeat;
+}
+.andrew2 p.texto2 {
+  margin-top: 80px;
+  margin-left: 130px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 353px;
+  text-align: right;
+}
+.andrew2 p.texto3 {
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 353px;
+  text-align: left;
+}
+.infoJose {
+  margin-top: 66px;
+  margin-left: 746px;
+}
+.jose1 {
+  background-image: url(./IMG/sobreNosotros/jose/jose1.png);
+  width: 446px;
+  height: 448px;
+  position: absolute;
+  top: 85px;
+  left: 146px;
+  background-repeat: no-repeat;
+}
+.jose1 p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+  rotate: -7deg;
+  color: #000;
+  margin-top: 80px;
+  margin-left: 160px;
+}
+.jose1 .texto1 {
+  font-size: 20px;
+  font-weight: bold;
+  rotate: 0deg;
+  color: #881414;
+  margin-top: 80px;
+  margin-left: 150px;
+  width: 270px;
+}
+.jose2 {
+  background-image: url(./IMG/sobreNosotros/jose/jose2.png);
+  width: 575px;
+  height: 506px;
+  position: absolute;
+  top: 287px;
+  left: 381px;
+  background-repeat: no-repeat;
+}
+.jose2 .texto2 {
+  font-size: 20px;
+  width: 265px;
+  font-weight: bold;
+  rotate: 0deg;
+  color: #000;
+  margin-top: 120px;
+  margin-left: 100px;
+}
+.jose2 .texto3 {
+  font-size: 20px;
+  width: 245px;
+  font-weight: bold;
+  rotate: 0deg;
+  color: #000;
+  margin-top: 80px;
+  margin-left: 210px;
+  text-align: right;
+}
