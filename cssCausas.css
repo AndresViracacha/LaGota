@@ -49,6 +49,11 @@ p {
   padding: 49px 63px;
   text-align: center;
 }
+.senales-borde p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 28px;
+  font-weight: bold;
+}
 .senales-cuerpo {
   position: relative;
 }
