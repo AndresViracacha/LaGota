@@ -45,6 +45,8 @@ nav button:hover {
   text-decoration: none;
   margin-right: 20px;
 }
+.header-social_network a svg {
+}
 
 header input {
   display: none;
