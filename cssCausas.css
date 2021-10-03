@@ -136,6 +136,11 @@ p {
 .nueve {
   top: 2500px;
 }
+footer {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
 @media (max-width: 1369px) {
   main {
     padding-left: 89px;
