@@ -110,29 +110,129 @@ p {
 
 /* numeros */
 .uno {
-  top: 0px;
+  top: 100px;
 }
 .dos {
-  top: 300px;
+  top: 400px;
 }
 .tres {
-  top: 600px;
+  top: 700px;
 }
 .cuatro {
-  top: 900px;
+  top: 1000px;
 }
 .cinco {
-  top: 1200px;
+  top: 1300px;
 }
 .seis {
-  top: 1500px;
+  top: 1600px;
 }
 .siete {
-  top: 1800px;
+  top: 1900px;
 }
 .ocho {
-  top: 2100px;
+  top: 2200px;
 }
 .nueve {
-  top: 2400px;
+  top: 2500px;
+}
+@media (max-width: 1369px) {
+  main {
+    padding-left: 89px;
+  }
+
+  .contenedorGeneral {
+    display: grid;
+    grid-template-columns: auto 228px;
+  }
+  .tarjeta {
+    width: 296px;
+    position: absolute;
+  }
+  .tarjeta-der {
+    margin-left: 0px;
+    left: 50%;
+  }
+  .tarjeta-izq {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 1100px) {
+  main {
+    padding-left: 40px;
+  }
+  h1 {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 975px) {
+  main {
+    padding-left: 20px;
+  }
+  .barra {
+    left: 0;
+  }
+  .senales-titulo {
+    margin: 0;
+    margin-left: -38px;
+  }
+  .tarjeta {
+    position: static;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .tarj-der {
+    left: 0%;
+    text-align: left;
+    margin: 0;
+    margin-left: 15px;
+  }
+  .tarj-izq {
+    align-items: flex-start;
+    left: 0%;
+    margin-left: 15px;
+  }
+  .tarj-der p {
+    padding-left: 14px;
+    margin-left: 15px;
+  }
+  .tarj-izq p {
+    padding-left: 14px;
+  }
+  .uno {
+    top: 100px;
+  }
+  .dos {
+    top: 600px;
+  }
+  .tres {
+    top: 1100px;
+  }
+  .cuatro {
+    top: 1600px;
+  }
+  .cinco {
+    top: 2100px;
+  }
+  .seis {
+    top: 2600px;
+  }
+  .siete {
+    top: 3100px;
+  }
+  .ocho {
+    top: 3600px;
+  }
+  .nueve {
+    top: 4100px;
+  }
+}
+@media (max-width: 690px) {
+  .contenedorGeneral {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .tarjeta {
+    width: 95%;
+  }
 }
