@@ -8,13 +8,13 @@ main {
 .rojo {
   background-image: url(./IMG/sobreNosotros/fRojo.png);
   background-size: cover;
-  height: 100vh;
+  height: 800px;
   position: relative;
   overflow-y: hidden;
 }
 .gris {
   background-image: url(./IMG/sobreNosotros/fGris.png);
-  height: 100vh;
+  height: 800px;
   background-size: cover;
   position: relative;
 }
