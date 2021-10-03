@@ -235,10 +235,18 @@ footer {
 @media (max-width: 690px) {
   main {
     padding-right: 20px;
+    display: block;
   }
   .contenedorGeneral {
     display: grid;
     grid-template-columns: auto;
+  }
+  .senales-titulo {
+    width: 110%;
+  }
+  h1 {
+    margin-top: 80px;
+    width: 100%;
   }
   .tarjeta {
     width: 95%;
