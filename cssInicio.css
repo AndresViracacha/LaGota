@@ -156,12 +156,17 @@ img {
 .sexto-parrafo .primer {
   padding-right: 7px;
   border-right: 2px solid #262626;
+  width: 50%;
 }
 .sexto-parrafo .primer .primer-div {
   margin-bottom: 29px;
 }
 .sexto-parrafo .segundo {
   padding-left: 7px;
+  width: 50%;
+}
+.sexto-parrafo .segundo img {
+  width: 100%;
 }
 .sexto-parrafo .segundo p {
   margin-bottom: 12px;
@@ -204,10 +209,73 @@ img {
 .octavo-parrafo .tercero {
   padding-left: 7px;
 }
-/*-------------------------------------------------------*/
 .noveno-parrafo img {
   width: 100%;
 }
+
+/*---------------------------------------------popup--------------*/
+
+.relative {
+  position: relative;
+}
+.relative img {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+.relative:hover img {
+  opacity: 1;
+}
+.relative .imagen-noveno-parrafo {
+  top: 80%;
+  max-width: 300px;
+}
+.popup {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  transition: 0.3s all ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup:hover {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.616);
+}
+.popup a {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  display: inline-block;
+  padding: 17px 0;
+  text-align: center;
+  max-width: 221px;
+  width: 80%;
+  text-decoration: none;
+  border-radius: 10px;
+  position: relative;
+}
+.popup span::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 10px;
+  border-color: #000 transparent transparent transparent;
+}
+/*-------------------------------medias--------------------------*/
 @media (max-width: 1280px) {
   main {
     padding: 0px;
