@@ -26,7 +26,11 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .senales {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   margin-top: 66px;
+  position: relative;
 }
 .senales-titulo {
   background-color: #ffc933;
@@ -54,15 +58,9 @@ p {
   font-size: 28px;
   font-weight: bold;
 }
-.senales-cuerpo {
-  position: relative;
-}
 .barra {
-  z-index: 80;
-  top: 0;
-  position: absolute;
   width: 31px;
-  height: 3000px;
+  height: 1300px;
   background: linear-gradient(
     270deg,
     rgba(212, 212, 212, 1) 0%,
@@ -104,13 +102,13 @@ p {
 
 .tarj-der {
   margin-left: 48px;
-  left: 47%;
+  left: 46%;
 }
 .tarj-izq {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  right: 50%;
+  right: 51%;
 }
 
 /* numeros */
@@ -141,6 +139,118 @@ p {
 .nueve {
   top: 2500px;
 }
+
+/*--2018---*/
+.a2018-1 {
+  top: 300px;
+}
+.a2018-2 {
+  top: 600px;
+}
+.a2018-3 {
+  top: 900px;
+}
+
+/*--2019---*/
+.a2019-1 {
+  top: 300px;
+}
+.a2019-2 {
+  top: 600px;
+}
+.a2019-3 {
+  top: 900px;
+}
+.a2019-4 {
+  top: 1200px;
+}
+.a2019-5 {
+  top: 1500px;
+}
+.a2019-6 {
+  top: 1800px;
+}
+/*--2020---*/
+.a2020-1 {
+  top: 300px;
+}
+.a2020-2 {
+  top: 600px;
+}
+.a2020-3 {
+  top: 900px;
+}
+.a2020-4 {
+  top: 1200px;
+}
+.a2020-5 {
+  top: 1500px;
+}
+/*--2021---*/
+.a2021-1 {
+  top: 300px;
+}
+.a2021-2 {
+  top: 600px;
+}
+.a2021-3 {
+  top: 900px;
+}
+.a2021-4 {
+  top: 1200px;
+}
+.a2021-5 {
+  top: 1500px;
+}
+/*****************************Consecuencias*******************/
+/*--------------------2021-----------------------------------*/
+.a2021-1 {
+  top: 300px;
+}
+.a2021-2 {
+  top: 600px;
+}
+.a2021-3 {
+  top: 900px;
+}
+.a2021-4 {
+  top: 1200px;
+}
+.a2021-5 {
+  top: 1500px;
+}
+.a2021-6 {
+  top: 1800px;
+}
+.a2021-7 {
+  top: 2100px;
+}
+.a2021-8 {
+  top: 2400px;
+}
+.a2021-9 {
+  top: 2700px;
+}
+.a2021-10 {
+  top: 3000px;
+}
+.barra2021c {
+  height: 3400px;
+}
+
+/*-------------------Barras-----------------------*/
+.barra2018 {
+  height: 1320px;
+}
+.barra2019 {
+  height: 2150px;
+}
+.barra2020 {
+  height: 1850px;
+}
+.barra2021 {
+  height: 1850px;
+}
 footer {
   display: flex;
   margin-top: 60px;
@@ -160,11 +270,11 @@ footer {
     position: absolute;
   }
   .tarjeta-der {
-    margin-left: 0px;
+    margin-left: 15px;
     left: 50%;
   }
   .tarjeta-izq {
-    margin-right: 0px;
+    margin-right: 17px;
   }
 }
 @media (max-width: 1100px) {
@@ -181,6 +291,11 @@ footer {
   }
   .barra {
     left: 0;
+    z-index: -1;
+    position: absolute;
+  }
+  .senales {
+    align-items: flex-start;
   }
   .senales-titulo {
     margin: 0;
