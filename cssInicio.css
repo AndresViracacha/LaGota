@@ -4,12 +4,16 @@
   font-family: "Century";
   src: url("./fonts/CenturyNormal.ttf");
 }
+* {
+  scroll-behavior: smooth;
+}
 main {
   grid-column-start: 1;
   grid-row-start: 1;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  scroll-behavior: smooth;
 
   height: 100vh;
 }
@@ -176,11 +180,11 @@ img {
   margin-bottom: 39px;
 }
 .septimo-parrafo p {
-  width: 30%;
+  width: 50%;
   padding-right: 16px;
 }
 .septimo-parrafo img {
-  width: 60%;
+  width: 50%;
 }
 .septimo-parrafo2 {
   display: flex;
